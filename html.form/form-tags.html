@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Tags in HTML</title>
+</head>
+
+<body>
+    <h1>Admission form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Enter your First Name:</label>
+            <input type="text" placeholder="Enter your First name">
+            <label>Enter your Middle Name:</label>
+            <input type="text">
+            <label>Enter your Last Name:</label>
+            <input type="text">
+            <br />
+            <br />
+            <label>Enter your Date of Birth</label>
+            <input type="date">
+            <label>to</label>
+            <input type="date">
+            <br />
+            <br />
+            <label>Username:</label>
+            <input type="text">
+            <label>Password</label>
+            <input type="password">
+            <br />
+            <br />
+            <label>Gender</label>
+            <input type="radio" name="option"><label>Male</label>
+            <input type="radio" name="option"><label>Female</label>
+            <input type="radio" name="option"><label>Others</label>
+        </fieldset>
+
+        <!--Contact Detail section-->
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label>Enter your Mobile number:</label>
+            <input type="number">
+            <label>Enter your Email:</label>
+            <input type="email">
+        </fieldset>
+
+        <!--Address Detail Section-->
+        <fieldset>
+            <legend>address Information</legend>
+            <label>Enter your Address</label>
+            <textarea placeholder="Enter your address here...."></textarea>
+            <br />
+            <br />
+            <label>City</label>
+            <input type="text">
+            <br />
+            <br />
+            <select>
+                <option>Select State</option>
+                <option>Madhya Pradesh</option>
+                <option>Andhra Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Tamil Nadu</option>
+            </select>
+        </fieldset>
+
+        <!--Additional Detail-->
+        <fieldset>
+            <legend>Additional Detail</legend>
+            <label>Select System</label>
+            <select>
+                <Optgroup label="Desktop OS">
+                    <option>Windows</option>
+                    <option>Linux</option>
+                    <option>Mac</option>
+                </Optgroup>
+                <optgroup label="Mobile OS">
+                    <option>Android</option>
+                    <option>IOS</option>
+                    <option></option>
+                </optgroup>
+            </select>
+            <br />
+            <br />
+            <label>Rate your Reading Skills</label>     
+            <input type="range">
+            <label>Rate your Listening Skills</label>
+            <input type="range">
+            <label>Rate your Writing Skills</label>
+            <input type="range">
+            <label>Rate your Speaking Skills</label>
+            <input type="range">
+        </fieldset>
+    </form>
+</body>
+
+</html>
